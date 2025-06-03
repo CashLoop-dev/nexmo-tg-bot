@@ -1,0 +1,22 @@
+{
+  "name": "nexmo-tg-bot",
+  "version": "1.0.0",
+  "description": "A modular Telegram bot for customer surveys using Vonage/Nexmo voice calls, with analytics, admin dashboard, and SQLite storage.",
+  "main": "lib/telegram-bot.js",
+  "scripts": {
+    "start": "node lib/telegram-bot.js",
+    "server": "node lib/server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/runner": "^3.3.1",
+    "body-parser": "^1.20.2",
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "grammy": "^1.19.2",
+    "nexmo": "^2.10.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  }
+}
