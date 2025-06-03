@@ -83,11 +83,12 @@ lib/
     exportSurvey.js
   surveyQuestions.js
   config.js
-  database.js
+  db/
+    database.js
   NexmoHelper.js
   bot.js
   server.js
-init_structure.sh
+setup.sh
 package.json
 README.md
 ```
